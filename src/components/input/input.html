@@ -1,0 +1,12 @@
+<form name="myForm" class="container-fluid">
+        <md-input-container>
+            <label>Email:</label>
+            <input type="email" ng-model="mod_email" name="ipt_email" required />
+            <div ng-messages="myForm.ipt_email.$error">
+                <div ng-show="submitted && myForm.ipt_email.$error.required">Email is required.</div>
+                <div ng-show="submitted && myForm.ipt_email.$error.email">This field must be a valid email address.</div>
+            </div>
+        </md-input-container>
+
+    <md-button class="md-primary" ng-click="submitted=true">SUBMIT</md-button>
+ 

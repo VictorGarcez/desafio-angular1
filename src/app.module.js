@@ -10,6 +10,9 @@
         'app.approot',
         'app.home',
         'app.login',
-        'app.toolbar'
+        'app.toolbar',
+        'app.desafio',
+        'app.desafio-dialog',
+        'app.input'
     ]);
 })();

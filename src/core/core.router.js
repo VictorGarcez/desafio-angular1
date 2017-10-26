@@ -19,10 +19,17 @@
                 url: '/',
                 template: '<tmpl-home></tmpl-home>'
             })
-
             .state('quickstart', {
                 url: '/quickstart',
                 template: '<tmpl-quickstart></tmpl-quickstart>'
+            })
+            .state('desafio', {
+                url: '/desafio',
+                template: '<tmpl-desafio></tmpl-desafio>'
+            })
+            .state('input', {
+                url:'/input',
+                template:'<tmpl-input></tmpl-input>'
             });
     }
 })();
